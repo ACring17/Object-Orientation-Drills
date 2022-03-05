@@ -140,7 +140,10 @@ const totalPopulation = (obj) => {
 */
 
 //Code Here
-
+const ingredients = (obj) => {
+    const { carb, fat, protein } = obj
+    return [carb, fat, protein]
+}
 
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
