@@ -123,7 +123,10 @@ function greeting(obj) {
 */
 
 //Code Here
-
+const totalPopulation = (obj) => {
+    const { utah, california, texas, arizona } = obj
+    return utha + california + texas + arizona
+}
 
 
 //////////////////////////// PROBLEM 9 ////////////////////////////
