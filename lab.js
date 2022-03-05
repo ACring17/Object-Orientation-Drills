@@ -272,6 +272,9 @@ class Phone {
 */
 
 //Code Here
+let phone1 = new Phone('Apple', 'iPhone', 256, 'white', 1000)
+let phone2 = new Phone('Samsung', 'Galaxy', 128, 'black', 850)
+let phone3 = new Phone('Google', 'Pixel', 128, 'white', 1000)
 
 /* 
   Call the changePrice function on one of your phones, 
@@ -281,7 +284,8 @@ class Phone {
 */
 
 //Code Here 
-
+phone2.changePrice(1000)
+console.log(phone2.price)
 
 /*
   Now call the sell method on one of your other phone objects
@@ -291,6 +295,8 @@ class Phone {
 
 //Code Here 
 
+phone1.sell()
+console.log(phone1.sold)
 
 //////////////////////////// PROBLEM 15 ////////////////////////////
 
