@@ -315,7 +315,7 @@ const colors = {
     //do not edit this object
 
 //Code Here 
-
+const colorsCopy = {...colors }
 
 
 /*
