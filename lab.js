@@ -91,7 +91,7 @@ var carDetails = {
 */
 
 //Code Here
-
+const { color, make, model, year } = car
 
 
 //////////////////////////// PROBLEM 7 ////////////////////////////
