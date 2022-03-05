@@ -19,7 +19,12 @@ const me = {
 //and goodBoy/goodGirl (a boolean).
 
 //Code here
-
+let dog = {
+    name: 'Ollie',
+    color: 'Brown',
+    age: 2,
+    goodBoy: true
+}
 
 
 //////////////////////////// PROBLEM 3 ////////////////////////////
